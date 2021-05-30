@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--UATspace page
+Written by Dennis Shelgren
+denshelg@uat.edu
+19May2021-->
+
+<!--Tile for Casino
+This is the End of the Line Club from both Tron movies, although barely touched on
+in the original it was featured in the sequel Tron Legacy.
+Here was were programs of all kinds could enjoy anything their energy could
+afford-->
+
+<!--Beginning of HTML section-->
+<html>
+<!--Header section, titles-->
+
+<head>
+
+    <!--link to css style sheet, w/relationship and type-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!--link from this html to external file code.js-->
+
+    <script src="code.js"></script>
+
+    <!--Title of page, btw Nebulous is my nickname-->
+    <title>
+        Nebulous's Space Page
+    </title>
+</head>
+
+
+    <!--Display image from source jpg-->
+    <img src="UATspaceLogo-2.jpg">
+
+    <!--Header size 1, largest size-->
+    <h1>
+        UAT Space Program
+    </h1>
+
+    <!--Javascript code begins, document.write function to output text-->
+    <script>
+        document.write("Test of the document.write function");
+    </script>
+
+    <!--Paragraph tag to add text within HTML focus & break/newline-->
+    <p>Test of the paragraph tags</p><br>
+
+    <!--Paragraph id link to countdownTimer function-->
+    <p id="countdownTimer">Countdown Status...</p>
+    <!--Button tag to show Start and Stop Buttons-->
+    <!--Start button onclick call to startCountdown function-->
+    <button class="button" onclick="startCountdown();">Start</button>
+
+    <button class="button">Stop</button> <!--Currently unusued cancel button-->
+    <br> <!--Break line aka newline-->
+    <br>
+    
+
+    <p> The End of the Line Club presents<br> The Game of Craps<br> A land where the individual programs of Tron<br> Can experience all the joys available to the world of the living.<br>Including games of chance like dice games.<br> Please press Play Craps to play<br></p><!--Paragraph call to describe story of Craps game-->
+    <div id="die1Results">Die1 status...</div><br> <!--Status print of function die1Results from javascript Craps game function-->
+    <div id="die2Results">Die2 status...</div><br> <!--Status print of function die2Results from javascript Craps game funciton-->
+    <div id="sumResults">Sum status...</div><br> <!--Status print of function sumResults from javascript Craps game function-->
+    <div id="crapsResults">Craps game status</div><br> <!-- Display results crapsResults from javascript-->
+    <button class="button" onclick="playCraps();">Play Craps</button> <!-- Display button on website to call Javascript function playCraps()-->
+
+    <img src="end-of-line-club.jpg" align="right"> <!-- Display image at right side of screen from End-Of-Line-Club-->
+
+
+
+
+
+</body> <!--End of body section of html file-->
+
+</html> <!--End of html code-->
